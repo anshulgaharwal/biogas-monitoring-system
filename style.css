@@ -13,3 +13,6 @@ body {
   box-shadow: 0 0 10px #ccc;
   font-size: 18px;
 }
+.sensor:hover{
+  background-color: rgb(117, 117, 255);
+}
