@@ -1,18 +1,30 @@
 body {
   font-family: Arial;
-  background-color: #f9f9f9;
+  background-color: rgb(0, 0, 0);
   text-align: center;
   padding: 30px;
 }
+
+.heading {
+    margin: 55px;
+    align-self: center;
+    font-size: 3em;
+    color: aliceblue;
+}
 .sensor {
-  background: white;
-  padding: 15px;
-  margin: 15px auto;
+  background: rgb(150, 161, 191);
+  padding: 45px 45px;
+  margin: 85px ;
   width: 300px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #ccc;
+  border: 10px;
+  border-radius: 15px;
+  border-color: rgb(255, 255, 255);
+  box-shadow: 0 0 10 black;
   font-size: 18px;
+  display: inline;
 }
 .sensor:hover{
-  background-color: rgb(117, 117, 255);
+    background-color: rgb(25, 83, 200);
+    transform: scale(1.1em 1.1em);
+    border: 5px;
 }
